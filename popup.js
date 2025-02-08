@@ -28,7 +28,7 @@ function getSelectedText() {
 }
 
 function fetchCohereAnswer(text) {
-    const apiKey = "t6X3R8ldgOQpEAukjDNsV5pvLT80kHLfeCmZ5i9Q"; // Replace with your Cohere API key
+    const apiKey = "KEY-HERE"; // Replace with your Cohere API key
 
     fetch("https://api.cohere.ai/v1/generate", {
         method: "POST",
