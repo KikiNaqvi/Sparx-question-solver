@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Solver</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+            background-color: #E3F2FD; /* Light Blue Theme */
+            text-align: center;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #0D47A1; /* Darker Blue for contrast */
+            font-weight: 600;
+        }
+
+        .container {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #42A5F5; /* Vibrant Light Blue */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #1E88E5; /* Slightly Darker Blue */
+        }
+
+        #selectedText, #answerText {
+            font-size: 14px;
+            color: #333;
+            margin-top: 10px;
+            padding: 8px;
+            background: #F1F8E9; /* Light pastel green for clarity */
+            border-radius: 8px;
+            min-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Math Question Solver</h2>
+    <div class="container">
+        <button id="getSelection">Get Selected Text</button>
+        <p id="selectedText">Selected text will appear here...</p>
+        <button id="solveQuestion">Solve</button>
+        <p id="answerText">Answer will appear here...</p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
